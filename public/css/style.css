@@ -448,8 +448,8 @@ html, body {
         }
         
 
-        @media(max-width: 786px) {
-              .wrapper-first{ height: 500vh; }
+        @media only screen (min-width: 786px) {
+              .wrapper-first{ height: 400vh; }
               .wrapper-cowork{
                 height: 180vh;
                 margin-top:100px;
@@ -553,4 +553,13 @@ html, body {
                 margin-top: 20px;
               }
 
+        }
+
+        @media only screen and (max-width: 500px) {
+          .wrapper-first{
+            height: 400vh;
+          }
+          .wrapper-virtual{
+            height: 250vh;
+          }
         }
