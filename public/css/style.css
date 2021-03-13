@@ -448,8 +448,8 @@ html, body {
         }
         
 
-        @media only screen (min-width: 786px) {
-              .wrapper-first{ height: 400vh; }
+        @media(max-width: 786px) {
+              .wrapper-first{ height: 500vh; }
               .wrapper-cowork{
                 height: 180vh;
                 margin-top:100px;
@@ -554,12 +554,68 @@ html, body {
               }
 
         }
-
-        @media only screen and (max-width: 500px) {
-          .wrapper-first{
-            height: 400vh;
-          }
+        @media(max-width: 500px) {
+          .wrapper-first{ height: 450vh; }
           .wrapper-virtual{
-            height: 250vh;
+                height: 280vh;
+              }
+          .wrapper-cowork{
+                height: 180vh;
+              }
+          .wrapper{
+                height: 120vh;
+              }
+        }
+        @media(max-width: 400px) {
+          .wrapper-first{ height: 500vh; }
+          .wrapper-virtual{
+                height: 350vh;
+              }
+          .wrapper{
+                height: 150vh;
+              }
+        }
+        @media(max-width: 360px) {
+          .wrapper-first{ height: 500vh; }
+          .wrapper-virtual{
+                height: 350vh;
+              }
+          .wrapper{
+                height: 150vh;
+              }
+        }
+        @media(max-width: 320px) {
+          .wrapper-first {
+              height: 550vh;
+          }
+          .wrapper-cowork {
+              height: 200vh;
+          }
+          .wrapper-virtual {
+              height: 400vh;
+          }
+          .wrapper{
+                height: 150vh;
+              }
+          .polygon-top {
+              height: 220vh;
           }
         }
+        @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 812px) 
+        and (-webkit-min-device-pixel-ratio: 3) { 
+          .wrapper-first {
+              height: 400vh;
+          }
+          .wrapper-cowork {
+              height: 150vh;
+          }
+          .wrapper-virtual {
+              height: 250vh;
+          }
+          .wrapper {
+              height: 120vh;
+          }
+
+      }
