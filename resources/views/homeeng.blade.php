@@ -30,7 +30,7 @@
                  </div>
                  <div class="logo">
                     <a href="#">
-                      <img src="/images/ai-office-logo-white_1.png" />
+                      <img src="{{URL::to('/images/ai-office-logo-white_1.png')}}" />
                     </a>
                  </div>
                  <div class="menu">
@@ -51,9 +51,45 @@
             <div id="paket" class="contain-absolute">
                 <div class="desc-center">
                   <h1>Ai Office </h1>
-                  <p>
-                    Make Your Business Easier
-                  </p>
+                  <div class="paket-slide">
+                    <span class="paket-slide-box">
+                      <p>
+                        Make your business easier
+                      </p>
+                    </span>
+                    <span class="paket-slide-box">
+                      <p>
+                        Create IMB IDR. 1.500.000
+                      </p>
+                      <a href="https://wa.me/6287832000881?text=Paket%20IMB">
+                        <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-whatsapp"></i> More info</button>
+                      </a>
+                    </span>
+                    <span class="paket-slide-box">
+                      <p>
+                        Need a Tax Consultant? Aioffice The solution !!
+                      </p>
+                      <a href="https://wa.me/6287832000881?text=Paket%20Consult">
+                          <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-whatsapp"></i> More info</button>
+                        </a>
+                    </span>
+                    <span class="paket-slide-box">
+                      <p>
+                        Create UKM Permissions IDR 1.500.000
+                      </p>
+                      <a href="https://wa.me/6287832000881?text=Paket%20UKM">
+                        <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-whatsapp"></i> More info</button>
+                      </a>
+                    </span>
+                    <span class="paket-slide-box">
+                      <p>
+                        Catering Service for various event.
+                      </p>
+                      <a href="https://wa.me/6287832000881?text=Paket%20Catering">
+                        <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-whatsapp"></i> More info</button>
+                      </a>
+                    </span>
+                  </div>
                 </div>
                 <div class="row row-box">
                   <div class="paket-box">
@@ -170,7 +206,7 @@
                     <label><strong>Package PT Gold</strong></label>
                     <div class="detail-paket-box">Starting from</div>
                     <div class="detail-paket-box">
-                      <span class="num-box">10</span>
+                      <span class="num-box-2">10</span>
                       <span><strong>Jutaan</strong></span>
                     </div>
                     <div class="detail-paket-box">
@@ -290,16 +326,16 @@
               </div>
             <div class="row">
               <div class="col-md-3 column">
-                <img src="/images/home/cowork3.jpg" alt="Cowork-1" >
+                <img src="{{URL::to('/images/office/AI_001.jpeg')}}" alt="Cowork-1" >
               </div>
               <div class="col-md-3 column">
-                <img src="/images/home/cowork4.jpg" alt="Cowork-2" >
+                <img src="{{URL::to('/images/office/AI_002.jpeg')}}" alt="Cowork-2" >
               </div>
               <div class="col-md-3 column">
-                <img src="/images/home/cowork3.jpg" alt="Cowork-3" >
+                <img src="{{URL::to('/images/office/AI_003.jpeg')}}" alt="Cowork-3" >
               </div>
               <div class="col-md-3 column">
-                <img src="/images/home/cowork4.jpg" alt="Cowork-4" >
+                <img src="{{URL::to('/images/office/AI_006.jpeg')}}" alt="Cowork-4" >
               </div>
             </div>
            
@@ -346,23 +382,19 @@
               <div class="col-md-6">
                 <div class="row" style="margin-top: 20px;">
                   <div class="about-box">
-                    <img src="/images/home/cowork3.jpg">
+                    <img src="{{URL::to('/images/office/AI_001.jpeg')}}">
                     <div class="about-box-detail">
                       <strong>Virtual Office Jakarta Pusat</strong>
                       <p>Gedung Thamrin city Lt. 06 Unit 7A, Jl. Thamrin boulevard, RT/RW. 000/000, Kel. Kebon Melati, Kec. Tanah Abang Jakarta Pusat-10230</p>
                     </div>
                   </div>
                   <div class="about-box">
-                    <img src="/images/home/cowork4.jpg">
+                    <img src="{{URL::to('/images/office/AI_006.jpeg')}}">
                     <div class="about-box-detail">
                       <strong>Virtual Office Jakarta Barat</strong>
-                      <p>Sunrise Garden
-                        Jl. Panjang Blok X No.17,
-                        015/007 (samping APOTIK MATAHARI),
-                        Kedoya Utara,
-                        Kebon Jeruk,
-                        Jakarta Barat,
-                        11520</p>
+                      <p>
+                        JL. Tomang Raya Blok MM Kav 557, lt 3 No. 51 E  RT.1/RW.1, Tomang, Grogol petamburan, RT.1/RW.1, Tomang, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11440
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -381,7 +413,7 @@
             <div class="row" style="text-align: center; justify-content: center; color: #fff; font-size: 52px; margin-bottom: 100px">
               <h1>About Us</h1>
             </div>
-            <div class="row">
+            <div class="row row-box-center">
                 <div class="visi-box-1">
                   <h3>Vision</h3>
                   <p>Providing convenience in doing business, until now supported by more than 200 clients who trust us.</p>
@@ -423,7 +455,7 @@
                 <div class="testimon">
                   <div class="testimon-box">
                     <div class="testi-flex">
-                      <span class="flex-col"><img src="/images/testi/test-1.jpeg" class="rounded-circle" width="50px" height="50px"></span>
+                      <span class="flex-col"><img src="{{URL::to('/images/testi/test-1.jpeg')}}" class="rounded-circle" width="50px" height="50px"></span>
                       <span class="flex-col" style="padding: 10px; width: 80%;">Yayasan Priatman Untuk Negeri</span>
                       <span class="flex-col" style="float: right;">
                         <i class="fa fa-quote-left" style="color: #70727D; font-size: 32px;"></i>
@@ -436,7 +468,7 @@
 
                   <div class="testimon-box">
                     <div class="testi-flex">
-                      <span class="flex-col"><img src="/images/testi/test-2.jpeg" class="rounded-circle" width="50px" height="50px"></span>
+                      <span class="flex-col"><img src="{{URL::to('/images/testi/test-2.jpeg')}}" class="rounded-circle" width="50px" height="50px"></span>
                       <span class="flex-col" style="padding: 10px; width: 80%;">Cv Bintang Matacorps</span>
                       <span class="flex-col" style="float: right;">
                         <i class="fa fa-quote-left" style="color: #70727D; font-size: 32px;"></i>
@@ -448,7 +480,7 @@
                   </div>
                   <div class="testimon-box">
                     <div class="testi-flex">
-                      <span class="flex-col"><img src="/images/testi/test-3.jpeg" class="rounded-circle" width="50px" height="50px"></span>
+                      <span class="flex-col"><img src="{{URL::to('/images/testi/test-3.jpeg')}}" class="rounded-circle" width="50px" height="50px"></span>
                       <span class="flex-col" style="padding: 10px; width: 80%;">Pt Epic Medical Indonesia</span>
                       <span class="flex-col" style="float: right;">
                         <i class="fa fa-quote-left" style="color: #70727D; font-size: 32px;"></i>
@@ -473,9 +505,9 @@
                   <h1>Our Partners</h1>
                 </div>
                 <div class="row">
-                  <div class="col-md-3 mitra"><img src="/images/partner/part-1.png" width="100%"></div>
-                  <div class="col-md-3 mitra"><img src="/images/partner/part-2.png" width="100%"></div>
-                  <div class="col-md-3 mitra"><img src="/images/partner/part-3.png" width="100%"></div>
+                  <div class="col-md-3 mitra"><img src="{{URL::to('/images/partner/part-1.png')}}" width="100%"></div>
+                  <div class="col-md-3 mitra"><img src="{{URL::to('/images/partner/part-2.png')}}" width="100%"></div>
+                  <div class="col-md-3 mitra"><img src="{{URL::to('/images/partner/part-3.png')}}" width="100%"></div>
                 </div>
               </div>
           </div>
@@ -485,17 +517,13 @@
         <div class="container">
           <div class="row in-footer">
           <div class="col-md-3 foot-mar">
-            <img src="/images/ai-office-logo-white-2.png" width="100%">
+            <img src="{{URL::to('/images/ai-office-logo-white-2.png')}}" width="100%">
           </div>
           <div class="col-md-3 foot-mar">
             <h4>Address</h4>
-            <p>Sunrise Garden </p>
-            <p>Jl. Panjang Blok X No.17</p>
-            <p>RT/RW : 015/007 (samping APOTIK MATAHARI)<p>
-            <p>Kel : Kedoya Utara</p>
-            <p>Kec : Kebon Jeruk</p>
-            <p>Kotamadya : Jakarta Barat</p>
-            <p>Kode pos : 11520</p>
+            <p>
+              JL. Tomang Raya Blok MM Kav 557, lt 3 No. 51 E  RT.1/RW.1, Tomang, Grogol petamburan, RT.1/RW.1, Tomang, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11440
+            </p>
           </div>
           <div class="col-md-3 foot-mar">
             <h4>Contact</h4>
@@ -514,8 +542,11 @@
     </body>
     <script type="text/javascript">
         $(document).ready(function() {
-            $(".menu-icon,nav.red ul li a").on("click", function() {
+            $(".menu-icon").on("click", function() {
                   $("nav ul").toggleClass("showing");
+            });
+            $("nav.red ul li a,nav ul li a").on("click touchstart", function() {
+                  $("nav ul").removeClass("showing");
             });
             $('.testimon').slick({
               centerMode: true,
@@ -545,6 +576,7 @@
                 }
               ]
             });
+            $('.paket-slide').slick({});
       });
 
       // Scrolling Effect
